@@ -1,0 +1,200 @@
+$icon-font-path: '../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/';
+
+// bower:scss
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+body,
+html {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  outline: 1px solid grey;
+  background: hsla(0, 0%, 50%, 0.1);
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  position: relative;
+
+  .logo {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .menus {
+    display: inline-block;
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .menu1 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 69.9%;
+      margin: 0;
+      padding: 0;
+      padding-right: 20px;
+      text-align: right;
+
+      li {
+        width: 25%;
+        text-align: center;
+        margin: 10px 0 10px 20px;
+      }
+
+
+      input {
+        width: 100%;
+      }
+    }
+
+    .menu2 {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 69.9%;
+      height: 50%;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+
+      li {
+        width: 19.652%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+    }
+  }
+
+}
+
+.carosel {
+  display: block;
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+
+}
+
+.wrapper1 {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+  padding: 0;
+
+  .news {
+    display: inline-block;
+    width: 55%;
+
+    .heading {
+      width: 100%;
+    }
+
+  }
+
+  .events {
+    display: inline-block;
+    width: 44.5%;
+  }
+}
+
+.wrapper2 {
+  position: relative;
+  width: 99%;
+  min-height: 200px;
+  margin: 20px auto;
+
+  .button {
+    position: relative;
+    display: inline-flex;
+    width: 33.1%;
+    height: 200px;
+    text-align: center;
+    background: url("http://fillmurray.com/400/200");
+
+    @media (max-width:780px) {
+      width: 90%;
+      margin: 5px 5%;
+    }
+
+    @media (min-width: 781px) {
+      width: 25%;
+      margin: 10px 3.9%;
+    }
+
+    a {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+    }
+
+    span {
+      color: white;
+
+    }
+  }
+}
+
+.wrapper4 {
+  position: relative;
+  width: 99%;
+  min-height: 250px;
+  margin: 20px auto;
+  text-align: center;
+
+  h2 {
+    text-align: left;
+    margin: 0;
+  }
+
+  .button {
+    position: relative;
+    display: inline-flex;
+    width: 33.1%;
+    height: 200px;
+    text-align: center;
+    background: url("http://fillmurray.com/400/200");
+
+    @media (max-width:780px) {
+      width: 90%;
+      margin: 5px 5%;
+    }
+
+    @media (min-width: 781px) {
+      width: 25%;
+      margin: 10px 3.9%;
+    }
+    
+    a {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+    }
+
+    span {
+      color: white;
+    }
+  }
+}
